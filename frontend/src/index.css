@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS */
+
+/* Estilos generales de la screen de registro */
+
+.input-register {
+  @apply w-full px-3 py-2 text-gray-700 border border-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400;
+}
+
+.button-register {
+  @apply w-full px-4 py-2 text-white bg-gray-600 rounded-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2
+}
+
+/* Estilos generales de la screen de login */
+
+.button-login {
+  @apply w-full px-4 py-2 text-white bg-gray-600 rounded-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2
+}
+
+/* Estilos generales de la screen de perfil */
+
+/* Estilos generales de la screen de home */
+
+.button {
+  @apply bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded;
+}
+
+/* Estilos de Mis Reservas */
+
+.container-table {
+  @apply table-auto w-full border-collapse border border-gray-300 text-center;
+}
+
+.tittle-table {
+  @apply border border-gray-300 px-4 py-2;
+}
+
+.body-table {
+  @apply border border-gray-300 px-4 py-2;
+}
+
+
+/* Estilos de la screen de Crear Reserva */
+
+.input-create-reserve {
+  @apply w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500;
+}
+
+.buttons-create-reserve-ver-mis-reservas {
+  @apply flex items-center px-6 py-3 bg-purple-600 text-white rounded-lg shadow-lg hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500
+}
+
+/* Estilos de la screen de de Home Admin */
+
+
+.container-main-general{
+  @apply p-6 bg-white rounded-lg shadow-lg max-w-4xl mx-auto
+}
+
+.tittle-screen-general{
+  @apply text-2xl font-bold text-center text-purple-600 mb-6
+}
+
+.container-table-general{
+  @apply table-auto w-full border-collapse border border-gray-300 text-center
+}
+
+.container-thead-general{
+  @apply bg-purple-100
+}
+
+.container-tbody-general{
+  @apply border border-gray-300 px-4 py-2
+}
+
+.buttons-general-delete{
+  @apply bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 focus:outline-none
+}
